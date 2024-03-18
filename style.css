@@ -4,15 +4,20 @@
     padding: 0px;
 }
 .main_container{
-    width: 1250px;
+    width: 800px;
     margin: auto;
-}
+    background-color: rgb(249, 252, 250);
+    box-shadow: 0 2px 20px #000003;
+    padding: 20px;
+      }
+
 .profile_container img{
     width: 200px;
     height: auto;
     object-fit: fill;
     border-radius: 50%;
     border: 3px black solid;
+    
 }   
 
 .profile_container{
@@ -51,7 +56,9 @@
     text-align: justify;
 }
 .contact{
-    margin-top: 20px;
+    margin-top: 10px;
+    
+   
 }
 .contact h3{
     margin-top: 20px;
@@ -96,3 +103,27 @@
 .contact a{
     color: rgb(0, 124, 31);
 }
+
+
+    body {
+      background-color: rgb(166, 202, 181);
+    }
+
+@media screen and ( max-width: 500px  ) {
+        
+        .main_container{
+            width: 100%;
+            height: auto;
+            background-color: rgb(166, 202, 181);
+        }
+
+        .profile_container{
+            flex-direction: column;
+        }
+
+        .all_details{
+            flex-direction: column;
+        }
+ 
+}
+  
